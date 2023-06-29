@@ -1,4 +1,4 @@
-resource "aws_instance" "myec2" {
+resource "aws_instance" "myec201" {
   ami           = "ami-006dcf34c09e50022"
   instance_type = "t2.micro"
 }
